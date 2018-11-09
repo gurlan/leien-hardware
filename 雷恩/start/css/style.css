@@ -1,0 +1,35 @@
+/* CSS Document */
+body{font-size:12px; font-family: 'Microsoft Yahei','SimSun',sans-serif;overflow-x:hidden; color:#333;background:#fff; width: 100%;}
+input,textarea{font-size:100%;border:0;padding:0;background:none;outline:none;font-family:'Microsoft Yahei'; }
+body,h1,h2,h3,h4,p,ul,ol,dd,dl,form{margin:0;padding:0;font-weight:normal;}
+ul{padding-left:0;list-style-type:none;}
+a{text-decoration:none;outline:none;color:#666;transition:all .2s ease; cursor:pointer;}
+a:hover{color:#f0ab06;}
+img{border:0;vertical-align:top;}
+i,s,em,u{font-style:normal;text-decoration:none;}
+*html{background-image:url(about:blank);background-attachment:fixed; }/**解决ie6中的颤动效果**/
+.fix:before,.fix:after{content:"";display:table;}
+.fix{*zoom:1;}
+.fix:after{clear:both;}
+.l{float:left;}
+.r{float:right;}
+.w1200{width: 1200px;margin: 0 auto;}
+/* ************************************** */
+
+
+/*启动start*/
+.start{width:100%;height:100%;background:url(../images/start.jpg) no-repeat;position:relative;}
+.start span{display:block;margin:0 auto;width:780px;height:280px;text-align:center;position:absolute;top:50%;left:50%;margin-left:-390px;margin-top:-140px;}
+.start span h3{font-size:52px;color:#ffffff;font-weight:bold;}
+.start span p{font-size:16px;line-height:28px;color:#fff;margin-top:30px;}
+.start span ul{width:100%;text-align:center;}
+.start span ul li{display:inline-block;}
+.start span ul li{width:170px;height:50px;margin:70px 50px 0px 50px;line-height:50px;font-size:20px;line-height:50px;border-radius:50px;color:#005090;text-align:left;background:url(../images/start2.png) 125px #fff no-repeat;}
+.start span ul li:first-child{background:url(../images/start3.png) 125px no-repeat;color:#fff;border:1px #fff solid;color:#fff;}
+.start span ul li a{color:#005090;}
+.start span ul li:first-child a{color:#fff;}
+.start span ul li i{display:block;padding-left:28px;}
+/*.start{width:100%;height:100%;background:url(../images/start.jpg);}
+.start span{display:block;margin:0 auto;width:640px;height:110px;padding-top:20%}
+.start span img:nth-child(1){float:left;}
+.start span img:nth-child(2){float:right;padding-top:20px;}*/

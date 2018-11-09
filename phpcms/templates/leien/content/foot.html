@@ -1,0 +1,42 @@
+<div class="w1200">
+    <div class="footer">
+        <div class="w1200">
+            <div class="footer_top fix">
+                <div class="w1200">
+                    <span>友情链接：</span>
+                    {pc:link action="type_list" siteid="$siteid" order="listorder DESC" num="10" return="dat"}
+                    {loop $dat $v}
+                    <a href="{$v[url]}">{$v[name]}</a>
+                    {/loop}
+                </div>
+            </div>
+            <div class="footer_main fix">
+                <div class="footer_main1">
+                    <img src="images/footerlogo.png">
+                </div>
+                <div class="footer_main2">
+                    <p> 地 址：{$config[address]}</p>
+                    <p>传 真：{$config[fax]} 联系电话：{$config[tel]}</p>
+                    <p>{$config[beian]} {$config[copyright]}@版权所有</p>
+                </div>
+                <div class="footer_main3">
+                    <em>
+                        <img src="{$config[qrcode1]}">
+                        <p>微信订阅号</p>
+                    </em>
+                    <em>
+                        <img src="{$config[qrcode2]}">
+                        <p>微信服务号</p>
+                    </em>
+                </div>
+            </div>
+            <div class="footer_bom">
+                <div class="w1200">
+                    <p>{$config[copyright]}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

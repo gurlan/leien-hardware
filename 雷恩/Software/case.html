@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script><script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="common w1200"  id="anchor">
+        <div class="nav fix">
+            <div class="w1200 fix">
+                <div class="logo">
+                    <img src="images/logo.png">
+                </div>
+                <ul class="navul fix">                                              
+                    <li class="nLi on">
+                        <h3><a href="index.html">首页</a></h3>
+                    </li>
+                    <li class="nLi">
+                        <h3><a href="product.html">产品中心</a></h3>
+                         <div class="sub">
+                            <ul>
+                                <li><a href="product.html">CheckPoint</a></li>
+                                <li><a href="product.html">Palo Alto</a></li>
+                                <li><a href="product.html">SolarWinds</a></li>
+                                <li><a href="product.html">Firemon</a></li>
+                                <li><a href="product.html">Rapid7</a></li>
+                                <li><a href="product.html">Imperva</a></li>
+                                <li><a href="product.html">Netinside</a></li>
+                                <li><a href="product.html">IBM QRadar</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nLi">
+                        <h3><a href="solution.html">解决方案</a></h3>
+                         <div class="sub">
+                            <ul>
+                                <li><a href="solution.html">数据库安全</a></li>
+                                <li><a href="solution.html">WEB应用安全</a></li>
+                                <li><a href="solution.html">防火墙策略管理</a></li>
+                                <li><a href="solution.html">安全漏洞管理</a></li>
+                                <li><a href="solution.html">应用性能管理</a></li>
+                                <li><a href="solution.html">网络监控管理</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nLi">
+                        <h3><a href="case.html">成功案例</a></h3>
+                         <div class="sub">
+                            <ul>
+                                <li><a href="case.html">汽车制造案例</a></li>
+                                <li><a href="case.html">能源行业案例</a></li>
+                                <li><a href="case.html">金融行业案例</a></li>
+                                <li><a href="case.html">地产行业案例</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                     <li class="nLi">
+                        <h3><a href="news.html">行业动态</a></h3>
+                    </li>
+                    <li class="nLi">
+                        <h3><a href="generalize.html">关于合恒</a></h3>
+                         <div class="sub">
+                            <ul>
+                                <li><a href="generalize.html">企业概括</a></li>
+                                <li><a href="cooperation.html">企业资质</a></li>
+                                <li><a href="recruit.html">招贤纳士</a></li>
+                                <li><a href="contact.html">联系我们</a></li>
+                                <li><a href="cooperation.html">合作伙伴</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <script id="jsID" type="text/javascript">
+                    jQuery(".navul").slide({ 
+                    type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+                    titCell:".nLi", //鼠标触发对象
+                    targetCell:".sub", //titCell里面包含的要显示/消失的对象
+                    effect:"slideDown", //targetCell下拉效果
+                    delayTime:300 , //效果时间
+                    triggerTime:0, //鼠标延迟触发时间（默认150）
+                    returnDefault:true //   鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="banner w1200">
+            <div class="banner-img fix">
+                <div class="hd">
+                    <ul><li></li><li></li><li></li></ul>
+                </div>
+                <div class="bd">
+                    <ul>
+                        <li><a href="generalize.html"><img src="images/banner.jpg" /></a></li>
+                        <li><a href="generalize.html"><img src="images/banner.jpg" /></a></li>
+                        <li><a href="generalize.html"><img src="images/banner.jpg" /></a></li>
+                    </ul>
+                </div>
+            </div>
+            <script type="text/javascript">
+                jQuery(".banner-img").slide({mainCell:".bd ul",autoPlay:true});
+            </script>
+        </div>
+    </div>
+    <div class="Crumbs">
+        <div class="w1200"><p>我的位置：首页   <i>></i> 成功案例 <i>></i> <span>金融行业案例</span></p></div>  
+    </div>
+    <div class="public w1200 fix">
+        <div class="public_nav le">
+            <ul>
+                <li><em><b>成功案例 </b>/ CASE</em></li>
+                <li class="on"><a href="case.html">汽车制造案例</a></li>
+                <li><a href="case.html">能源行业案例</a></li>
+                <li><a href="case.html">金融行业案例</a></li>
+                <li><a href="case.html">地产行业案例</a></li>
+            </ul>
+        </div>
+        <div class="case public_right rt">
+            <em class="fix">
+                <i></i>
+                <b>华晨汽车打造SIEM平台项目</b>
+                <i></i>
+            </em>
+            <span>简介:</span>
+            <p>华晨汽车集团控股有限公司（简称“华晨汽车”，英文Brilliance Auto）是我国汽车工业高起点“自主创新、自有技术、自主品牌”的主力军。是2002年根据中央决定，经辽宁省政府批准设立的国有独资公司，是一个集整车、发动机、核心零部件研发、设计、制造、销售以及资本运作为一体的大型企业集团。</p>
+            <span>现状:</span>
+            <p>近些年，IT业务系统的迅猛发展，华晨汽车IT网络规模越来越大、越来越复杂，由传统的网络、主机、应用基础网络架构已经过度到应用虚拟化、云办公平台、大数据时代。但是，随着业务资源访问、操作不断增加，随之而来的安全问题也成为困扰华晨汽车IT管理者的主要问题，另外，来至互联网的安全威胁、内控措施不力造成企业业务系统安全问题时有发生，且，支撑业务系统的IT设备自身日志存储、审计、分析、搜索等功能已经无法满足企业目前与未来业务的发展要求。</p>
+            <p>1. 网络安全问题：网络架构复杂，可利用系统、网络漏洞繁多。</p>
+            <p>2. 故障定位：业务应用系统性能下降或宕机，IT运维部门不能及时准确定位故障点，平均故障修复时间长。</p>
+            <p>3. 日志收集：承载业务系统硬件设备日志格式不统一，收集、分析、搜索困难。</p>
+            <p>4. 安全审计：缺乏事件跟踪，不能准确定位。</p>
+            <p>5. 报表：无法整合业务系统健康状态统计报表。</p>
+            <p>6. 合规性：不满足管理合规性。</p>
+            <p>所以，华晨汽车正在寻求以高效的方式实现合规性，并提供高级安全分析功能，可以识别威胁并管理风险，从而保障业务系统机密性、可用性、完整性。</p>
+            <span>SIEM解决方案:</span>
+            <p>安全信息和事件管理（SIEM）解决方案，可以从根本上解决华晨汽车IT合规性、运维支撑、威胁检测、取证分析方面的需求，除了集中管理、存储来组织内部所有IT资源(包括网络、系统和应用)产生的安全信息(包括日志、告警等)外，还应能够实时监控、历史分析、审计分析、调查取证、出具报表。识别来自外部入侵和内部违规、误操作行为，从而实现IT资源合规性管理的目标，提升企业和组织的安全运营、威胁管理和应急响应能力。</p>
+            <img src="images/case.jpg">
+            <span>价值体系：</span>
+            <p>网络信息安全预警：自动、实时收集分析网络及应用系统日志，分析及确认相关安全威胁，及时通知IT运维人员，现实安全事件及时感知、及时响应、及时处置，大大的降低安全威胁影响程度。</p>
+            <p>提高工作效率：日志数据的自动化采集、告警、保留和分析，现实自动化运维，缩短MTTR平均故障修复时间，提高工作效率。</p>
+            <p>满足合规性要求：实现IT资源合规性管理。</p>
+        </div>
+    </div>
+    <div class="w1200">
+        <div class="footer fix">
+            <div class="w1200">
+                <div class="footer_top">
+                    <span>友情链接：</span>
+                    <a href="">北京雷恩创业科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                    <a href="">某某科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                </div>
+                <div class="footer_main fix">
+                    <div class="footer_mian1">
+                        <img src="images/logo.png">
+                    </div>
+                    <div class="footer_mian2">
+                       <ul>
+                            <li class="fix">
+                                <img src="images/footer1.png">
+                                <p>010-51659495 、010-52894860</p>
+                            </li>
+                            <li class="fix">
+                                <img src="images/footer2.png">
+                                <p>010-51659495 、010-52894860</p>
+                            </li>
+                             <li class="fix">
+                                <img src="images/footer3.png">
+                                <p>55555555@qq.com</p>
+                            </li>
+                            <li class="fix">
+                                <img src="images/footer4.png">
+                                <p>北京市海淀区上地十街1号院4号楼12层1208室</p>
+                            </li>
+                       </ul>
+                    </div>
+                    <div class="footer_mian3">
+                        <img src="images/ma.jpg">
+                        <p>微信公众号</p>
+                    </div>
+                </div>
+                <div class="footer_bom">
+                    <div class="w1200 fix">
+                        <p>Copyright 2010. All Rights Reserved. leienonline.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

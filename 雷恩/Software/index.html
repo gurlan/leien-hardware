@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script><script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="common w1200"  id="anchor">
+    <div class="nav fix">
+        <div class="w1200 fix">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <ul class="navul fix">                                              
+                <li class="nLi on">
+                    <h3><a href="index.html">首页</a></h3>
+                </li>
+                <li class="nLi">
+                    <h3><a href="product.html">产品中心</a></h3>
+                     <div class="sub">
+                        <ul>
+                            <li><a href="product.html">CheckPoint</a></li>
+                            <li><a href="product.html">Palo Alto</a></li>
+                            <li><a href="product.html">SolarWinds</a></li>
+                            <li><a href="product.html">Firemon</a></li>
+                            <li><a href="product.html">Rapid7</a></li>
+                            <li><a href="product.html">Imperva</a></li>
+                            <li><a href="product.html">Netinside</a></li>
+                            <li><a href="product.html">IBM QRadar</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <h3><a href="solution.html">解决方案</a></h3>
+                     <div class="sub">
+                        <ul>
+                            <li><a href="solution.html">数据库安全</a></li>
+                            <li><a href="solution.html">WEB应用安全</a></li>
+                            <li><a href="solution.html">防火墙策略管理</a></li>
+                            <li><a href="solution.html">安全漏洞管理</a></li>
+                            <li><a href="solution.html">应用性能管理</a></li>
+                            <li><a href="solution.html">网络监控管理</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <h3><a href="case.html">成功案例</a></h3>
+                     <div class="sub">
+                        <ul>
+                            <li><a href="case.html">汽车制造案例</a></li>
+                            <li><a href="case.html">能源行业案例</a></li>
+                            <li><a href="case.html">金融行业案例</a></li>
+                            <li><a href="case.html">地产行业案例</a></li>
+                        </ul>
+                    </div>
+                </li>
+                 <li class="nLi">
+                    <h3><a href="news.html">行业动态</a></h3>
+                </li>
+                <li class="nLi">
+                    <h3><a href="generalize.html">关于合恒</a></h3>
+                     <div class="sub">
+                        <ul>
+                            <li><a href="generalize.html">企业概括</a></li>
+                            <li><a href="cooperation.html">企业资质</a></li>
+                            <li><a href="recruit.html">招贤纳士</a></li>
+                            <li><a href="contact.html">联系我们</a></li>
+                            <li><a href="cooperation.html">合作伙伴</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <script id="jsID" type="text/javascript">
+                jQuery(".navul").slide({ 
+                type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+                titCell:".nLi", //鼠标触发对象
+                targetCell:".sub", //titCell里面包含的要显示/消失的对象
+                effect:"slideDown", //targetCell下拉效果
+                delayTime:300 , //效果时间
+                triggerTime:0, //鼠标延迟触发时间（默认150）
+                returnDefault:true //   鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+                });
+            </script>
+        </div>
+    </div>
+    <div class="banner w1200">
+        <div class="banner-img fix">
+            <div class="hd">
+                <ul><li></li><li></li><li></li></ul>
+            </div>
+            <div class="bd">
+                <ul>
+                    <li><a href="generalize.html"><img src="images/banner.jpg" /></a></li>
+                    <li><a href="generalize.html"><img src="images/banner.jpg" /></a></li>
+                    <li><a href="generalize.html"><img src="images/banner.jpg" /></a></li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript">
+            jQuery(".banner-img").slide({mainCell:".bd ul",autoPlay:true});
+        </script>
+    </div>
+</div>
+    <div class="notice">
+        <div class="w1200">
+            <div class="bd">
+                <ul>
+                    <li><a href="news.html">重要通知：现在，鹿光的脚步不止于此。遵循“至繁归于至简”的核心理念...</a></li>
+                    <li><a href="news.html">重要通知：电子皮带秤是一种动态计量设备，它的精度与许多因素有关...</a></li>
+                    <li><a href="news.html">重要通知：现在，鹿光的脚步不止于此。遵循“至繁归于至简”的核心理念...</a></li>
+                    <li><a href="news.html">重要通知：电子皮带秤是一种动态计量设备，它的精度与许多因素有关...</a></li>
+                    <li><a href="news.html">重要通知：现在，鹿光的脚步不止于此。遵循“至繁归于至简”的核心理念...</a></li>
+                    <li><a href="news.html">重要通知：电子皮带秤是一种动态计量设备，它的精度与许多因素有关...</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <form class="fix">
+                    <input type="text" name="" class="text" placeholder="请输入搜索内容">
+                    <input type="submit" name="" value="搜索" class="submit">
+                    <img src="images/sousu.png">
+                </form>
+            </div>
+       </div>
+    </div>
+    <script type="text/javascript">
+        jQuery(".notice").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"top",autoPlay:true,vis:5});
+    </script>
+    <div class="index_scheme w1200">
+        <div class="index_schemeTop">
+            <h3>解决方案</h3>
+            <i></i>
+            <p>公司本着“以客户为中心”的经营理念， “诚信、平等”的待人原则，热情接待客户 、真情服务客户，实现客户利益和价值的最大化。</p>
+        </div>
+        <div class="index_schemeBom">
+            <div class="hd">
+                <a class="next"><img src="images/fanganz.png"></a>
+                <ul></ul>
+                <a class="prev"><img src="images/fangany.png"></a>
+            </div>
+            <div class="bd">
+                <ul class="picList fix">
+                    <li>
+                        <a href="">
+                           <img src="images/fangan.jpg">
+                           <b>数据库安全</b>
+                           <p>高速铁路信号控制平台安全型计算机联锁（VPI）系统要求计算机设备具有...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                           <img src="images/fangan.jpg">
+                           <b>数据库安全</b>
+                           <p>高速铁路信号控制平台安全型计算机联锁（VPI）系统要求计算机设备具有...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                           <img src="images/fangan.jpg">
+                           <b>数据库安全</b>
+                           <p>高速铁路信号控制平台安全型计算机联锁（VPI）系统要求计算机设备具有...</p>
+                        </a>
+                    </li>          
+                </ul>
+            </div>
+        </div>
+         <a href="solution.html" class="more">
+             MORE  +
+         </a>
+        <script type="text/javascript">    
+            jQuery(".index_schemeBom").slide({mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",vis:3,interTime:50});
+        </script>
+    </div>
+    <div class="w1200">
+        <div class="index_superiority">
+            <div class="w1200">
+                <div class="index_superiorityTop">
+                    <h3>合恒优势</h3>
+                    <i></i>
+                    <p>公司本着“以客户为中心”的经营理念， “诚信、平等”的待人原则，热情接待客户 、真情服务客户，实现客户利益和价值的最大化。</p>
+                </div>
+                <div class="index_superiorityBom">
+                    <ul>
+                        <li>
+                            <a href="newsxq.html">
+                                <em>
+                                    <img src="images/yous1.png">
+                                    <b>7 x 24小时本地化服务</b>
+                                </em>
+                            </a>
+                        </li>
+                         <li>
+                             <a href="newsxq.html">
+                                 <em>
+                                     <img src="images/yous2.png">
+                                     <b>领先的技术方案整合能力</b>
+                                 </em>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="newsxq.html">
+                                 <em>
+                                     <img src="images/yous3.png">
+                                     <b>独特的定制化安全服务</b>
+                                 </em>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="newsxq.html">
+                                 <em>
+                                     <img src="images/yous4.png">
+                                     <b>丰富的行业运维经验</b>
+                                 </em>
+                             </a>
+                         </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="index_aboutBox">
+        <div class="w1200">
+            <div class="index_aboutTop">
+                <h3>关于合恒</h3>
+                <i></i>
+                <p>公司本着“以客户为中心”的经营理念， “诚信、平等”的待人原则，热情接待客户 、真情服务客户，实现客户利益和价值的最大化。</p>
+            </div>
+            <div class="index_about">
+                <div class="index_aboutleft">
+                    <img src="images/guany.jpg">
+                </div>
+                <div class="index_aboutright">
+                    <h3>合恒科技(北京)有限公司</h3>
+                    <p>hh合恒科技（北京）有限公司成立于2009年，是专业的安 全可视化运维解决方案提供商。公司面向行 业及大型企事业客户，围绕中大型数据中心，在整合信息安全技术、运维经验以及业界顶尖的相关产品的   基础上，向客户提供专业的安全可视化运维解决方案及增值服务。</p>
+                    <p>hhhh公司自创建以来一直秉承“合则兴，信则恒”的合作 及服务理念，目前已成为了众多行业及大型企 事业客户的全面信息安全合作伙伴。公司拥有自主知识产权的“Netinside合恒优维应用 性能管理系统”广 泛应用于金融，企业及政府客户。同时，合恒科技与国内外顶尖信息安全厂商缔结了紧密的合作关系，是Check Point, Firemon,Solarwinds,Imperva,Paloalto Network, A10 Networks，Rapid7, 绿盟科技,深信服等公司的核心代理商及专业服务 提供商。</p>
+                </div>
+            </div>
+            <a href="solution.html" class="more">
+                 MORE  +
+            </a>
+         </div>
+    </div>
+    <div class="w1200">
+        <div class="footer fix">
+            <div class="w1200">
+                <div class="footer_top">
+                    <span>友情链接：</span>
+                    <a href="">北京雷恩创业科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                    <a href="">某某科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                </div>
+                <div class="footer_main fix">
+                    <div class="footer_mian1">
+                        <img src="images/logo.png">
+                    </div>
+                    <div class="footer_mian2">
+                       <ul>
+                            <li class="fix">
+                                <img src="images/footer1.png">
+                                <p>010-51659495 、010-52894860</p>
+                            </li>
+                            <li class="fix">
+                                <img src="images/footer2.png">
+                                <p>010-51659495 、010-52894860</p>
+                            </li>
+                             <li class="fix">
+                                <img src="images/footer3.png">
+                                <p>55555555@qq.com</p>
+                            </li>
+                            <li class="fix">
+                                <img src="images/footer4.png">
+                                <p>北京市海淀区上地十街1号院4号楼12层1208室</p>
+                            </li>
+                       </ul>
+                    </div>
+                    <div class="footer_mian3">
+                        <img src="images/ma.jpg">
+                        <p>微信公众号</p>
+                    </div>
+                </div>
+                <div class="footer_bom">
+                    <div class="w1200 fix">
+                        <p>Copyright 2010. All Rights Reserved. leienonline.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

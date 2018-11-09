@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script><script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="common"  id="anchor">
+        <div class="head" class="fix">
+            <div class="w1200">
+                <p>欢迎来到北京雷恩创业科技发展有限公司 !</p>
+                <span>010-881-29649</span>
+            </div>
+        </div>
+        <div class="nav fix">
+            <div class="w1200 fix">
+                <div class="logo">
+                    <img src="images/logo.png">
+                </div>
+                <ul class="navul fix">                                              
+                    <li class="nLi on">
+                        <h3><a href="index.html">网站首页</a></h3>
+                    </li>
+                    <li class="nLi">
+                        <h3><a href="product.html">产品中心</a></h3>
+                         <div class="sub">
+                            <ul class="fix">
+                                <li><a href="product.html">研祥嵌入式产品</a></li>
+                                <li><a href="product.html">研华工业服务器</a></li>
+                                <li><a href="product.html">研祥通讯产品</a></li>
+                                <li><a href="product.html">工业数据采集与控制</a></li>
+                                <li><a href="product.html">研祥军工/装备产品</a></li>
+                                <li><a href="product.html">研华工业通讯</a></li>
+                                <li><a href="product.html">研祥工业自动化整机产品</a></li>
+                                <li><a href="product.html">研华智能系统</a></li>
+                                <li><a href="product.html">研华主流工控机</a></li>
+                                <li><a href="product.html">西门子工控机</a></li>
+                                <li><a href="product.html">研华嵌入式工控机</a></li>
+                                <li><a href="product.html">MOXA多串口卡</a></li>
+                                <li><a href="product.html">研华平板/显示器/一体机</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nLi">
+                        <h3><a href="Recommend.html">精品推荐</a></h3>
+                    </li>
+                    <li class="nLi">
+                        <h3><a href="solution.html">解决方案</a></h3>
+                    </li>
+                    <li class="nLi">
+                        <h3><a href="about.html">关于我们</a></h3>
+                    </li>
+                </ul>
+                <script id="jsID" type="text/javascript">
+                    jQuery(".navul").slide({ 
+                    type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+                    titCell:".nLi", //鼠标触发对象
+                    targetCell:".sub", //titCell里面包含的要显示/消失的对象
+                    effect:"slideDown", //targetCell下拉效果
+                    delayTime:300 , //效果时间
+                    triggerTime:0, //鼠标延迟触发时间（默认150）
+                    returnDefault:true //   鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="banner w1200">
+            <div class="banner-img fix">
+                <div class="hd">
+                    <ul><li></li><li></li><li></li></ul>
+                </div>
+                <div class="bd">
+                    <ul>
+                        <li><a><img src="images/banner.jpg" /></a></li>
+                        <li><a><img src="images/banner.jpg" /></a></li>
+                        <li><a><img src="images/banner.jpg" /></a></li>
+                    </ul>
+                </div>
+            </div>
+            <script type="text/javascript">
+                jQuery(".banner-img").slide({mainCell:".bd ul",autoPlay:true});
+            </script>
+        </div>
+    </div>
+    <div class="Crumbs">
+        <div class="w1200"><p>我的位置：首页   <i>></i> 解决方案  <i>></i>    <span>轨道交通 CPCI产品在高速铁路信号控制平台中的应用</span></p></div>  
+    </div>
+    <div class="solutionxq w1200">
+         <h3>Check Point Software Technologies 推出全新 Smart-1 设备</h3>
+        <em>
+            <i>作者： 某某某</i>
+            <i>来源：</i>
+            <i>日期：2013-11-7 15:54:38</i>
+            <i>人气：132</i>
+            <i>标签：</i>
+        </em>
+        <img src="images/newsxq.jpg">
+        <span>一.系统概述</span>
+　　    <p>高速铁路信号控制平台安全型计算机联锁（VPI）系统要求计算机设备具有足够高的安全性和可靠性，以确
+            保列车管理管理系统的安全性。中国铁路通信信号总公司研究设计院基于研祥公司的双冗余CPCI总线系统开发了安全型计算机联锁（VPI）系统，成功的应用于中国铁路的各个区域。</p>
+        <span>二.系统要求</span>
+　　    <p>铁路车站联锁系统对车站上的信号机、道岔和轨道铁路等信号设备进行相互关联控制，为在车站行驶的列
+            车建立一条安全的行驶线路。传统的车站联锁设备采用继电器电路实现，称为继电器联锁。计算机联锁采用计算机技术实现对铁路车站信号设备的运算和控制，是新一代车站联锁设备，广泛应用于现在的高速铁路线路上。车站联锁设备是直接关系到列车行驶安全和运输效率的重要装置。</p>
+        <span>三.系统描述</span>
+　　    <p>安全型计算机联锁（VPI）系统是一种“故障-安全”的、以微处理器为基础的车站联锁信号控制系统。</p>
+        <p>VPI是具有部分“固有故障-安全”电路，既采用了二取二的“组合故障-安全”技术，又采用了“反应故障-安全”技术的综合安全系统。</p>
+　　        <p>VPI双冗余热备系统既满足了铁道部对可靠性和可用性的高要求。VPI系统采用完全冗余架构，其主系统和
+            备用系统分别执行同一工作，并经同步检查，确保主备系统同步工作，实现真正的热备冗余。</p>
+            <span>四.系统框图</span>　　　　　　　
+            <p>车站计算机联锁系统的组成：由控制台子系统、检测子系统、联锁子系统、输入输出子系统和继电器接口电路五部分组成。</p>
+            <p>为了满足对高可靠性和安全性的要求，联锁机采用三个90-70三取二表决方式同步工作。</p>
+            <b>联锁处理子系统（IPS）</b>　　　　　　　　　　　
+            <p>IPS Interlocking Computer IPS是整个VPI系统的核心，它由两套“双系热冗余组合故障安全” 加“NISAL反应故障安全”专用联锁机（IPSA和IPSB）组成，根据需要可以分中央逻辑控制（CLC）和区域逻辑控制（ZLC）的分层结构。</p>
+            <b>项目产品清单</b>
+　　        <p>CPCI加固通讯终端高铁信号控制平台系统配置如下:</p>
+            <b>CPC-8716 整机</b>
+　　        <p>7U双系统 14槽 19"标准CPCI上架机型</p>
+　　        <p>每系统1个系统槽，6个外设槽</p>
+　　        <p>每系统1+1冗余CPCI电源，兼容AC/DC输</p>
+　　        <p>风扇可拆卸</p>
+            <b>CPC-1814CLD5NA-N双核主控板</b>
+            <p>Intel® Core™ 2 Duo Processor L7500/T7500，BGA，4M L2 cache，800Mhz FSB </p>
+            <p>板载2GB 667MHz DDR2 SDRAM</p>
+            <p>RAID 0/1/10存储模式，5个千兆网口</p>
+            <p>宽温工作范围：-40℃ ~ +80℃</p>
+            <b>CPC-16COM</b>　　　　　　　　　　　　　　　　
+            <p>16个串口支持RS232/422/485，最高速率支持115200bps</p>
+            <p>工作温度：-40℃ ~ +80℃</p>
+            <b>CPC-2CAN-6U</b>
+            <p>DB9接口，双路智能CAN口，符合DeviceNET和CANopen标准光电隔离，隔离电压2500VDC</p>
+            <span>五、EVOC产品优势</span>
+            <p>1、国内最强大的CPCI产品研发队伍，可提供国内最完善、最齐全的CPCI加固产品解决方案。</p>
+            <p>2、研祥CPCI产品应用于军工、通讯、轨道交通、安防、电力、钢铁等多个行业</p>
+            <p>3、产品经过如性能、功能、可靠性、可维护性、抗震动性、抗冲击性、抗宽温环境变化性等各种测试，完全能保证其产品的稳定性与可靠性。</p>
+    </div>
+    <div class="w1200">
+        <div class="footer">
+            <div class="w1200">
+                <div class="footer_top fix">
+                    <div class="w1200">
+                        <span>友情链接：</span>
+                        <a href="">北京雷恩创业科技发展有限公司</a>
+                        <a href="">科技发展有限公司</a>
+                        <a href="">科技发展有限公司</a>
+                        <a href="">某某科技发展有限公司</a>
+                        <a href="">科技发展有限公司</a>
+                        <a href="">科技发展有限公司</a>
+                    </div>
+                </div>
+                <div class="footer_main fix">
+                    <div class="footer_main1">
+                        <img src="images/footerlogo.png">
+                    </div>
+                    <div class="footer_main2">
+                        <p> 地 址：北京市海淀区中关村34号楼111室</p>
+                        <p>传 真：010-88129649 联系电话：010-62569366 010-88129649</p>
+                        <p>京ICP备11037382号-1 北京雷恩创业科技发展有限公司@版权所有</p>
+                    </div>
+                    <div class="footer_main3">
+                        <em>
+                            <img src="images/ma.jpg">
+                            <p>微信服务好</p>
+                        </em>
+                        <em>
+                            <img src="images/ma.jpg">
+                            <p>微信公众号</p>
+                        </em>
+                    </div>
+                </div>
+                <div class="footer_bom">
+                    <div class="w1200">
+                        <p>Copyright 2010. All Rights Reserved. leienonline.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

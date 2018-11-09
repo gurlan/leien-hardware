@@ -1,0 +1,57 @@
+{template "content","head"}
+{template "content","position"}
+    <div class="productxq w1200 fix">
+        <div class="productxq_top fix">
+            <div class="game163 fl">
+                <ul class="bigImg" style="position: relative; width: 520px; height: 384px;">
+                    {loop $gallery $v}
+                    <li style="position: absolute; width: 520px; left: 0px; top: 0px; display: list-item;">
+                        <img src="{$v[url]}" />
+                    </li>
+                    {/loop}
+                </ul>
+                <div class="smallScroll">
+                    <div class="smallImg">
+                         <div class="tempWrap" style="overflow:hidden; position:relative; width:520px;height:95px;"><ul style="width: 800px; left: 0px; position: relative; overflow: hidden; padding: 0px; margin: 0px;height:95px;">
+                             {loop $gallery $v}
+                            <li  style="float: left; width: 124px;height:94px;"><a><img src="{$v[url]}"></a></li>
+                             {/loop}
+                        </ul></div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                    jQuery(".game163").slide({ titCell:".smallImg li", mainCell:".bigImg", effect:"fold", autoPlay:true,    delayTime       :200,
+                    startFun:function(i,p){
+                    //控制小图自动翻页
+                    if(i==0){ jQuery(".game163 .sPrev").click() } else if( i%4==0 ){ jQuery(".game163 .sNext").click(   )}
+                    }
+                });
+                jQuery(".game163 .smallScroll").slide({ mainCell:"ul",delayTime:100,vis:4,scroll:4,effect:"left",autoPage:  true,     prevCell:".sPrev",nextCell:".sNext",pnLoop:false });
+            </script>
+            <div class="productxq_TopLeft">
+                <b>{$title}</b>
+                <em class="fix">
+                    <span>产品名称</span>
+                    <p>{$title}</p>
+                </em>
+                <em class="fix">
+                    <span>产品品牌</span>
+                    <p>{$brand}</p>
+                </em>
+                <em class="fix">
+                    <span>产品产地</span>
+                    <p>{$address}</p>
+                </em>
+                <em class="fix">
+                    <span>产品简介</span>
+                    <p> {$description}</p>
+                </em>
+            </div>
+        </div>
+        <div class="productxq_bom fix">
+            <h3>产品介绍</h3>
+           {$content}
+        </div>
+    </div>
+{template "content","foot"}

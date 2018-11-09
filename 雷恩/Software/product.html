@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script><script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="common w1200"  id="anchor">
+    <div class="nav fix">
+        <div class="w1200 fix">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <ul class="navul fix">                                              
+                <li class="nLi on">
+                    <h3><a href="index.html">首页</a></h3>
+                </li>
+                <li class="nLi">
+                    <h3><a href="product.html">产品中心</a></h3>
+                     <div class="sub">
+                        <ul>
+                            <li><a href="product.html">CheckPoint</a></li>
+                            <li><a href="product.html">Palo Alto</a></li>
+                            <li><a href="product.html">SolarWinds</a></li>
+                            <li><a href="product.html">Firemon</a></li>
+                            <li><a href="product.html">Rapid7</a></li>
+                            <li><a href="product.html">Imperva</a></li>
+                            <li><a href="product.html">Netinside</a></li>
+                            <li><a href="product.html">IBM QRadar</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <h3><a href="solution.html">解决方案</a></h3>
+                     <div class="sub">
+                        <ul>
+                            <li><a href="solution.html">数据库安全</a></li>
+                            <li><a href="solution.html">WEB应用安全</a></li>
+                            <li><a href="solution.html">防火墙策略管理</a></li>
+                            <li><a href="solution.html">安全漏洞管理</a></li>
+                            <li><a href="solution.html">应用性能管理</a></li>
+                            <li><a href="solution.html">网络监控管理</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <h3><a href="case.html">成功案例</a></h3>
+                     <div class="sub">
+                        <ul>
+                            <li><a href="case.html">汽车制造案例</a></li>
+                            <li><a href="case.html">能源行业案例</a></li>
+                            <li><a href="case.html">金融行业案例</a></li>
+                            <li><a href="case.html">地产行业案例</a></li>
+                        </ul>
+                    </div>
+                </li>
+                 <li class="nLi">
+                    <h3><a href="news.html">行业动态</a></h3>
+                </li>
+                <li class="nLi">
+                    <h3><a href="generalize.html">关于合恒</a></h3>
+                     <div class="sub">
+                        <ul>
+                            <li><a href="generalize.html">企业概括</a></li>
+                            <li><a href="cooperation.html">企业资质</a></li>
+                            <li><a href="recruit.html">招贤纳士</a></li>
+                            <li><a href="contact.html">联系我们</a></li>
+                            <li><a href="cooperation.html">合作伙伴</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <script id="jsID" type="text/javascript">
+                jQuery(".navul").slide({ 
+                type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+                titCell:".nLi", //鼠标触发对象
+                targetCell:".sub", //titCell里面包含的要显示/消失的对象
+                effect:"slideDown", //targetCell下拉效果
+                delayTime:300 , //效果时间
+                triggerTime:0, //鼠标延迟触发时间（默认150）
+                returnDefault:true //   鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+                });
+            </script>
+        </div>
+    </div>
+    <div class="banner w1200">
+        <div class="banner-img fix">
+            <div class="hd">
+                <ul><li></li><li></li><li></li></ul>
+            </div>
+            <div class="bd">
+                <ul>
+                    <li><a href="generalize.html"><img src="images/banner.jpg" /></a></li>
+                    <li><a href="generalize.html"><img src="images/banner.jpg" /></a></li>
+                    <li><a href="generalize.html"><img src="images/banner.jpg" /></a></li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript">
+            jQuery(".banner-img").slide({mainCell:".bd ul",autoPlay:true});
+        </script>
+    </div>
+</div>
+    <div class="Crumbs">
+        <div class="w1200"><p>我的位置：首页   <i>></i>   <span>产品中心</span></p></div>  
+    </div>
+    <div class="public w1200 fix">
+        <div class="public_nav le">
+            <ul>
+                <li><em><b>产品中心 </b>/ PRODUCT</em></li>
+                <li><a href="product.html">CheckPoint</a></li>
+                <li><a href="product.html">Palo Alto</a></li>
+                <li><a href="product.html">SolarWinds</a></li>
+                <li><a href="product.html">Firemon</a></li>
+                <li><a href="product.html">Rapid7</a></li>
+                <li><a href="product.html">Imperva</a></li>
+                <li><a href="product.html">Netinside</a></li>
+                <li><a href="product.html">IBM QRadar</a></li>
+            </ul>
+        </div>
+        <div class="product public_right rt">
+            <ul class="productul fix">
+                <li class="one">
+                    <a href="productxq.html">
+                        <img src="images/product1.jpg">
+                        <em class="fix">
+                            <i></i>
+                            <span>CP15600</span>
+                            <i></i>
+                        </em>
+                        <p>
+                            Check Point 23500下一代安全网关在数据中心级别的全新硬件架构上融合了最全面的安全威胁防护...
+                        </p>
+                    </a>
+                </li>
+                 <li>
+                    <a href="productxq.html">
+                        <img src="images/product1.jpg">
+                        <em class="fix">
+                            <i></i>
+                            <span>CP15600</span>
+                            <i></i>
+                        </em>
+                        <p>
+                            Check Point 23500下一代安全网关在数据中心级别的全新硬件架构上融合了最全面的安全威胁防护...
+                        </p>
+                    </a>
+                </li>
+                 <li>
+                    <a href="productxq.html">
+                        <img src="images/product1.jpg">
+                        <em class="fix">
+                            <i></i>
+                            <span>CP15600</span>
+                            <i></i>
+                        </em>
+                        <p>
+                            Check Point 23500下一代安全网关在数据中心级别的全新硬件架构上融合了最全面的安全威胁防护...
+                        </p>
+                    </a>
+                </li>
+                <li class="one">
+                    <a href="productxq.html">
+                        <img src="images/product1.jpg">
+                        <em class="fix">
+                            <i></i>
+                            <span>CP15600</span>
+                            <i></i>
+                        </em>
+                        <p>
+                           Check Point 23500下一代安全网关在数据中心级别的全新硬件架构上融合了最全面的安全威胁防护...
+                        </p>
+                    </a>
+                </li>
+                 <li>
+                    <a href="productxq.html">
+                        <img src="images/product1.jpg">
+                        <em class="fix">
+                            <i></i>
+                            <span>CP15600</span>
+                            <i></i>
+                        </em>
+                        <p>
+                            Check Point 23500下一代安全网关在数据中心级别的全新硬件架构上融合了最全面的安全威胁防护...
+                        </p>
+                    </a>
+                </li>
+                 <li>
+                    <a href="productxq.html">
+                        <img src="images/product1.jpg">
+                        <em class="fix">
+                            <i></i>
+                            <span>CP15600</span>
+                            <i></i>
+                        </em>
+                        <p>
+                            Check Point 23500下一代安全网关在数据中心级别的全新硬件架构上融合了最全面的安全威胁防护...
+                        </p>
+                    </a>
+                </li>
+            </ul>
+            <div class="link">
+                <ul class="fix">
+                    <li>5条</li>
+                    <li><a href="">上一页</a></li>
+                    <li class="on">1</li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">下一页</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="w1200">
+        <div class="footer fix">
+            <div class="w1200">
+                <div class="footer_top">
+                    <span>友情链接：</span>
+                    <a href="">北京雷恩创业科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                    <a href="">某某科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                </div>
+                <div class="footer_main fix">
+                    <div class="footer_mian1">
+                        <img src="images/logo.png">
+                    </div>
+                    <div class="footer_mian2">
+                       <ul>
+                            <li class="fix">
+                                <img src="images/footer1.png">
+                                <p>010-51659495 、010-52894860</p>
+                            </li>
+                            <li class="fix">
+                                <img src="images/footer2.png">
+                                <p>010-51659495 、010-52894860</p>
+                            </li>
+                             <li class="fix">
+                                <img src="images/footer3.png">
+                                <p>55555555@qq.com</p>
+                            </li>
+                            <li class="fix">
+                                <img src="images/footer4.png">
+                                <p>北京市海淀区上地十街1号院4号楼12层1208室</p>
+                            </li>
+                       </ul>
+                    </div>
+                    <div class="footer_mian3">
+                        <img src="images/ma.jpg">
+                        <p>微信公众号</p>
+                    </div>
+                </div>
+                <div class="footer_bom">
+                    <div class="w1200 fix">
+                        <p>Copyright 2010. All Rights Reserved. leienonline.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

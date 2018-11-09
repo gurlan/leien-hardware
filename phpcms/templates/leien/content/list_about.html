@@ -1,0 +1,32 @@
+{template "content","head"}
+{template "content","position"}
+    <div class="about w1200">
+        <div class="index_publicTop">
+            <h3>{$CATEGORYS[$catid][catname]}</h3>
+            <i></i>
+        </div>
+        <div class="aboutBom fix">
+            <p>{$CATEGORYS[$catid][description]}</p>
+            <div class="about_div">
+                <div class="w1200">
+                    <div class="bd">
+                        <div class="tempWrap" style="overflow:hidden; position:relative; width:1280px">
+                            <ul class="picList" style="width: 3520px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -673px;">
+                                {pc:content action="lists" catid="$catid" num="50" order="listorder ASC,inputtime desc" page="$page"}
+                                {loop $data $r}
+                                <li class="clone" style="float: left; width: 260px;">
+                                    <div class="pic"><img src="{$r[thumb]}"></div>
+                                </li>
+                                {/loop}
+                            </ul>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+        jQuery(".about_div").slide({mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",vis:4,interTime:50});
+        </script>
+                </div>
+            </div>
+        </div>
+       <!--  -->
+    </div>
+{template "content","foot"}

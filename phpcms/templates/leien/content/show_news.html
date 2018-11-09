@@ -1,0 +1,22 @@
+{template "content","head"}
+{template "content","position"}
+<div class="newsxq w1200">
+    <h3>{$title}</h3>
+    <em>
+        <i>作者： {$author}</i>
+        <i>来源：{$copyfrom}</i>
+        <i>日期：{$inputtime}</i>
+        <i id="hits"></i>
+        <i>标签：</i>
+    </em>
+    <p>{$content}</p>
+    <b>
+        <a href="{$previous_page[url]}">上一篇：{$previous_page[title]}</a>
+        <a href="{$next_page[url]}">下一篇：{$next_page[title]}</a>
+    </b>
+</div>
+{template "content","foot"}
+<script language="JavaScript" src="{APP_PATH}api.php?op=count&id={$id}&modelid={$modelid}"></script>
+<script>
+    $('#hits').before('人气:')
+</script>

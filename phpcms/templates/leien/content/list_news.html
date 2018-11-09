@@ -1,0 +1,37 @@
+{template "content","head"}
+{template "content","position"}
+    <div class="news w1200">
+        <div class="index_publicTop">
+            <h3>{$CATEGORYS[$catid][catname]}</h3>
+            <i></i>
+        </div>  
+        <div class="news_bom fix">
+            <ul class="newsul fix">
+                {pc:content action="lists" catid="$catid" num="5" order="listorder ASC,inputtime desc" page="$page"}
+                {loop $data $r}
+                <li>
+                    <a href="{$r[url]}">
+                       <div class="news_left le">
+                            <img src="{$r[thumb]}">
+                       </div>
+                       <div class="news_right rt">
+                            <h3>{$r[title]}</h3>
+                           <p>
+                               {$r[description]}
+                           </p>
+                           <i>{date("Y-m-d H:i",$r[inputtime])}</i>
+                            <em>查看详情</em>
+                       </div>
+                    </a>
+                </li>
+                {/loop}
+            </ul>
+            <div class="link">
+                <ul class="fix">
+                    {$pages}
+                </ul>
+            </div>
+        </div>
+       <!--  -->
+    </div>
+{template "content","foot"}

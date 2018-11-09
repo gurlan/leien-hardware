@@ -186,3 +186,34 @@
 <?php exit;?>11-01 18:32:46 | 2 | Illegal string offset 'interval' | phpcms/modules/formguide/index.php | 104
 <?php exit;?>11-01 18:55:57 | 2 | fsockopen(): unable to connect to tool.phpcms.cn:80 (No route to host) | phpcms/libs/classes/http.class.php | 84
 <?php exit;?>11-01 19:06:17 | 2 | Illegal string offset 'interval' | phpcms/modules/formguide/index.php | 104
+<?php exit;?>11-09 16:59:56 | 2 | mysqli::__construct(): (HY000/1045): Access denied for user 'luguang_hexiflo'@'124.200.186.50' (using password: YES) | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 16:59:56 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 16:59:56 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 16:59:56 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 16:59:56 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 16:59:56 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>11-09 16:59:56 | 2 | mysqli::__construct(): (HY000/1045): Access denied for user 'luguang_hexiflo'@'124.200.186.50' (using password: YES) | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 17:00:04 | 2 | mysqli::__construct(): (HY000/1045): Access denied for user 'luguang_hexiflo'@'124.200.186.50' (using password: YES) | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 17:00:04 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 17:00:04 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 17:00:04 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 17:00:04 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 17:00:04 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>11-09 17:00:04 | 2 | mysqli::__construct(): (HY000/1045): Access denied for user 'luguang_hexiflo'@'124.200.186.50' (using password: YES) | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 17:00:19 | 2 | mysqli::mysqli(): (HY000/1045): Access denied for user 'luguang_hexiflo'@'124.200.186.50' (using password: YES) | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 17:00:19 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 17:00:19 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 17:00:19 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 17:00:19 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 17:00:19 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>11-09 17:00:19 | 2 | mysqli::mysqli(): (HY000/1045): Access denied for user 'luguang_hexiflo'@'124.200.186.50' (using password: YES) | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 17:00:19 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 17:00:19 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 17:00:19 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 17:00:19 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 17:00:19 | 2 | mysqli::query(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 17:00:19 | 2 | db_mysqli::execute(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 17:00:19 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 17:00:19 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 17:00:19 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 17:00:19 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390

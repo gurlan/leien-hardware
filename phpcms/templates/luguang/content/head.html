@@ -18,25 +18,22 @@
 
     <link rel="stylesheet" href="{CSS_PATH}style.css">
 
-
-
-
-
-  <title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
 
 </head>
 
-{php $tmp=explode(',',$CATEGORYS[$catid][arrparentid]);$num=count($tmp);}
+    {php $tmp=explode(',',$CATEGORYS[$catid][arrparentid]);$num=count($tmp);}
 
-{if $num==1}
+    {if $num==1}
 
-{php $cat=$catid;}
+    {php $cat=$catid;}
 
-{else}
+    {else}
 
-{php $cat=$tmp[1];}
+    {php $cat=$tmp[1];}
 
-{/if}
+    {/if}
+
 {pc:content action="lists" catid="26" num="1" moreinfo=1 order="listorder ASC,inputtime desc" page="$page"}
 
 <body>

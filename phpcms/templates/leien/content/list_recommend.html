@@ -1,0 +1,37 @@
+{template "content","head"}
+{template "content","position"}
+    <div class="product w1200">
+        <div class="index_publicTop">
+            <h3>精品推荐</h3>
+            <i></i>
+        </div>  
+         <div class="Recommend fix">
+            <ul class="productul fix">
+                {pc:content  action="position" posid="18" order="listorder ASC" num="8" page="$page"}
+                {loop $data $r}
+                <li>
+                    <a href="public.html">
+                        <div class="productTu">
+                            <img src="{$r[thumb]}">
+                            <em>
+                                <h3>{$r[title]}</h3>
+                                <i></i>
+                                <p>{$r[description]}</p>
+                            </em>
+                        </div>
+                        <div class="productWz">
+                            <p>{$r[description]}</p>
+                        </div>
+                    </a>
+                </li>
+                {/loop}
+            </ul>
+            <div class="link">
+               <ul class="fix">
+                   {$pages}
+               </ul>
+            </div>
+        </div>
+       <!--  -->
+    </div>
+{template "content","foot"}

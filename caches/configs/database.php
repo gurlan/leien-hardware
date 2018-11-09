@@ -2,11 +2,11 @@
 
 return array (
 	'default' => array (
-		'hostname' => 'localhost',
+		'hostname' => '47.95.217.202',
 		'port' => 3306,
-		'database' => 'luguang_hexiflo',
-		'username' => 'luguang_hexiflo',
-		'password' => 'fSCaFDmYmx8YEKZe',
+		'database' => 'leien',
+		'username' => 'leien',
+		'password' => 'L6fwXJyRKtepjKks',
 		'tablepre' => 'v9_',
 		'charset' => 'utf8',
 		'type' => 'mysqli',

@@ -1,0 +1,71 @@
+{template "content","head"}
+{template "content","position"}
+<div class="product w1200">
+    <div class="index_publicTop">
+        <h3>产品分类</h3>
+        <i></i>
+    </div>
+    <div class="productBom fix">
+        <div class="publicBom_Left le">
+            <em class="fix">
+                <h3>产品分类</h3>
+                <i></i>
+            </em>
+            <ul class="menue">
+                {pc:content action="category" catid="22" num="25" siteid="$siteid" order="listorder ASC"}
+                {loop $data $k=>$r}
+                <li class="nli"><a class="xiao">{$r[catname]}</a>
+                    <ul class="danav">
+                        {pc:content action="category" catid="$r[catid]" num="25" siteid="$siteid" order="listorder ASC"}
+                        {loop $data $l=>$v}
+                        <li><a href="{$v[url]}">{$v[catname]}</a></li>
+                        {/loop}
+                        {/pc}
+                    </ul>
+                </li>
+                {/loop}
+                {/pc}
+            </ul>
+        </div>
+        <script type="text/javascript">
+            jQuery(".menue").slide({
+                type: "menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+                titCell: ".nli", //鼠标触发对象
+                targetCell: ".danav", //titCell里面包含的要显示/消失的对象
+                effect: "slideDown", //targetCell下拉效果
+                delayTime: 300, //效果时间
+                triggerTime: 0, //鼠标延迟触发时间（默认150）
+                returnDefault: true //   鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+            });
+        </script>
+        <div class="productBom_Right fix">
+            <ul class="productul fix">
+                {pc:content action="lists" catid="$catid" num="10" order="listorder ASC,inputtime desc" page="$page"}
+                {loop $data $r}
+                <li>
+                    <a href="{$r[url]}">
+                        <div class="productTu">
+                            <img src="{$r[thumb]}">
+                            <em>
+                                <h3>{$r[title]}</h3>
+                                <i></i>
+
+                            </em>
+                        </div>
+                        <div class="productWz">
+                            <p>{$r[description]}</p>
+                        </div>
+                    </a>
+                </li>
+                {/loop}
+            </ul>
+            <div class="link">
+                <ul class="fix">
+                    {$pages}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+</div>
+{template "content","foot"}

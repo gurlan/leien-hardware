@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script><script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="common w1200"  id="anchor">
+    <div class="nav fix">
+        <div class="w1200 fix">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <ul class="navul fix">                                              
+                <li class="nLi on">
+                    <h3><a href="index.html">首页</a></h3>
+                </li>
+                <li class="nLi">
+                    <h3><a href="product.html">产品中心</a></h3>
+                     <div class="sub">
+                        <ul>
+                            <li><a href="product.html">CheckPoint</a></li>
+                            <li><a href="product.html">Palo Alto</a></li>
+                            <li><a href="product.html">SolarWinds</a></li>
+                            <li><a href="product.html">Firemon</a></li>
+                            <li><a href="product.html">Rapid7</a></li>
+                            <li><a href="product.html">Imperva</a></li>
+                            <li><a href="product.html">Netinside</a></li>
+                            <li><a href="product.html">IBM QRadar</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <h3><a href="solution.html">解决方案</a></h3>
+                     <div class="sub">
+                        <ul>
+                            <li><a href="solution.html">数据库安全</a></li>
+                            <li><a href="solution.html">WEB应用安全</a></li>
+                            <li><a href="solution.html">防火墙策略管理</a></li>
+                            <li><a href="solution.html">安全漏洞管理</a></li>
+                            <li><a href="solution.html">应用性能管理</a></li>
+                            <li><a href="solution.html">网络监控管理</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <h3><a href="case.html">成功案例</a></h3>
+                     <div class="sub">
+                        <ul>
+                            <li><a href="case.html">汽车制造案例</a></li>
+                            <li><a href="case.html">能源行业案例</a></li>
+                            <li><a href="case.html">金融行业案例</a></li>
+                            <li><a href="case.html">地产行业案例</a></li>
+                        </ul>
+                    </div>
+                </li>
+                 <li class="nLi">
+                    <h3><a href="news.html">行业动态</a></h3>
+                </li>
+                <li class="nLi">
+                    <h3><a href="generalize.html">关于合恒</a></h3>
+                     <div class="sub">
+                        <ul>
+                            <li><a href="generalize.html">企业概括</a></li>
+                            <li><a href="cooperation.html">企业资质</a></li>
+                            <li><a href="recruit.html">招贤纳士</a></li>
+                            <li><a href="contact.html">联系我们</a></li>
+                            <li><a href="cooperation.html">合作伙伴</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <script id="jsID" type="text/javascript">
+                jQuery(".navul").slide({ 
+                type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+                titCell:".nLi", //鼠标触发对象
+                targetCell:".sub", //titCell里面包含的要显示/消失的对象
+                effect:"slideDown", //targetCell下拉效果
+                delayTime:300 , //效果时间
+                triggerTime:0, //鼠标延迟触发时间（默认150）
+                returnDefault:true //   鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+                });
+            </script>
+        </div>
+    </div>
+    <div class="banner w1200">
+        <div class="banner-img fix">
+            <div class="hd">
+                <ul><li></li><li></li><li></li></ul>
+            </div>
+            <div class="bd">
+                <ul>
+                    <li><a href="generalize.html"><img src="images/banner.jpg" /></a></li>
+                    <li><a href="generalize.html"><img src="images/banner.jpg" /></a></li>
+                    <li><a href="generalize.html"><img src="images/banner.jpg" /></a></li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript">
+            jQuery(".banner-img").slide({mainCell:".bd ul",autoPlay:true});
+        </script>
+    </div>
+</div>
+    <div class="Crumbs">
+        <div class="w1200"><p>我的位置：首页   <i>></i> 成功案例 <i>></i> <span>金融行业案例</span></p></div>  
+    </div>
+    <div class="public w1200 fix">
+        <div class="public_nav le">
+            <ul>
+                <li><em><b>解决方案 </b>/ PROGRAMME</em></li>
+                <li class="on"><a href="solution.html">数据库安全</a></li>
+                <li><a href="solution.html">WEB应用安全</a></li>
+                <li><a href="solution.html">防火墙策略管理</a></li>
+                <li><a href="solution.html">安全漏洞管理</a></li>
+                <li><a href="solution.html">应用性能管理</a></li>
+                <li><a href="solution.html">网络监控管理</a></li>
+            </ul>
+        </div>
+        <div class="case public_right rt">
+            <em class="fix">
+                <i></i>
+                <b>网络监控管理</b>
+                <i></i>
+            </em>
+            <span> SolarWinds 网络监控解决方案</span>
+            <span>一、现状</span>
+            <p>网络对于业务越来越重要，如何更好地对网络进行监控、维护，如何减少网络故障的发生， 保证业务的正常开展，是现实的问题。网络性能管理不仅仅是测量服务水准的目标，它还应该包括对网速降低或者通信中断的及时发现、基于事实的容量规划、对网络资源有效的使用，以及全面的故障排除。目前可能存在的困惑：</p>
+            <p>1.对于庞大的网络环境，出现故障不易查找、诊断和修复：没有准确的数据可以进行科学化的故障分析，只能是低效率盲目地猜测；</p>
+            <p>2.没有预防性管理：没有预防性能力，在网络问题出现前没有任何预警；</p>
+            <p>3.无效的应用监控：没有对网络中的应用进行有效的监控，当应用系统性能下降时，不能及时判断出是网络问题，还是应用系统本身问题，无法保证业务的连续运行；</p>
+            <p>4.网络基础设施的性能利用率低：不能充分利用现有的带宽和设备，无法发现带宽瓶颈；</p>
+            <p>5.不能实现有效的网络规划：不能为网络增长提供基于事实的依据；</p>
+            <p>6.网络的可视性差，想一览全局状态很困难；</p>
+            <p>7.手动的对众多的网络设备（如交换机，路由器，防火墙）和服务器（SMTP，WWW，DNS， SQL）进行监控，浪费管理员的精力和时间，而且不能及时发现问题所在；</p>
+            <p>8.当发生故障的时候，不能及时得到有效的警报信息；</p>
+            <p>9.没有一个简观明了的图表功能，说明网络或节点的相关资源使用情况。</p>
+            <p>完善的网络性能管理解决方案，应该满足对网络性能日益提高的需求，提供最佳性能管理和报告工具，帮助网络管理人员从被动管理模式转换至主动识别流量变化模式，并针对不断提高的网络需求进行规划。网络带宽和网络服务级别的监测，网络仿真则可在所建议的网络变化实施之前对其加以测试。网络中所有的存储与备份及虚拟化系统都应该有一体化的监控平台。网络中所有的日志系统都能够被自动收集与分析。同时，方案应具有可扩展性，要具备随网络发展而灵活扩充的能力。这些都可以通过我们建议的使用SolarWinds的IT综合环境监控解决方案得到满足。</p>
+            <span>二、解决方案概述</span>
+            <p>SolarWinds是一个支持分布式部署的综合IT环境监控解决方案，用于网络性能监测、流量分析、链路监控、配置管理、虚拟化监控、日志监控、存储与备份系统监控等IT的多个方面。该系统根据管理员配置的任务模型主动、智能和协作地监控网络，从网络节点收集数据，并分析出其潜在的错误。Solarwinds是专门为各种复杂的网络环境开发的网络管理、网络监控，应用监控，虚拟化监控，存储与备份系统监控，日志监控的综合IT环境解决方案。能够满足电信运营商、大中院校、企事业单位对网络管理和专业咨询的不同需求。</p>
+            <img src="images\solution.jpg">
+            <p>SolarWinds解决方案具有以下优势：</p>
+            <p>1.快捷安装以及简便使用：Solarwinds所有模块可在数个小时内部署完毕并立即投入生产使用，维护升级也十分简便，极大缩短系统熟悉周期，节约了维护成本；</p>
+            <p>2.监控全面：支持国内外各厂商的各类型主流设备，包括网络设备、安全设备、负载均衡设备、VMware、存储产品、备份软件等；</p>
+            <p>3.涵盖网管领域的各项功能：包括性能监控、流量分析、链路监控、IP地址监控、日志收集分析及配置管理等方面；</p>
+            <p>4.可自定义的告警编辑器、报表编辑器（支持自定义SQL查询）；<p>
+            <p>5.B/S架构，通过浏览器异地轻松访问，支持Android、 Blackberry、iPhone手机终端访问；日志监控与分析需要使用C/S架构。</p>
+            <p>6.全球范围内在170多个国家超过110000名的SolarWinds用户；</p>
+            <p>7.财富500强中超过475位的SolarWinds的用户；</p>
+            <p>8.SolarWinds是NYSE上市公司；</p>
+            <span>三、SolarWinds功能优势</span>
+            <p>1.网络的监控与管理</p>
+            <p>- Network Performance Monitor（NPM）网络性能分析模块</p>
+            <p>- Network Configuration Managerment（NCM）网络配置管理模块</p>
+            <p>- NetFlow Traffic Analyzer（NTA）流量分析模块</p>
+            <p>- IP Address Manager（IPAM）IP地址管理模块</p>
+            <p>- IP SLA Manager（IPSLA）链路服务质量监控模块</p>
+            <p>- User Device Tracker（UDT）终端用户追踪模块</p>
+            <p>- Failover Engine（FOE）热备模块</p>
+            <p>- Enterprise Operations Console（EOC）企业级控制台</p>
+            <p>- Polling Engine （PE）扩展的轮询引擎模块</p>
+            <p>2.应用的监控与管理</p>
+            <p>- Application Performance Monitor （APM）应用性能监控模块</p>
+            <p>- Synthetic End User Monitor（SEUM）综合终端用户体验监控器</p>
+            <p>3.日志的监控与管理</p>
+            <p>- Log & Event Manager （LEM）日志与事件管理器</p>
+            <p>4.存储与备份的监控管理</p>
+            <p>- Storage Monitor （STM）存储监控器</p>
+            <p>- Backup Profiler（Back-up module）备份监控模块</p>
+            <p>5.虚拟化的监控与管理</p>
+            <p>- Virtualization Manager （VM）应用性能监控模块</p>
+        </div>
+    </div>
+    <div class="w1200">
+        <div class="footer fix">
+            <div class="w1200">
+                <div class="footer_top">
+                    <span>友情链接：</span>
+                    <a href="">北京雷恩创业科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                    <a href="">某某科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                    <a href="">科技发展有限公司</a>
+                </div>
+                <div class="footer_main fix">
+                    <div class="footer_mian1">
+                        <img src="images/logo.png">
+                    </div>
+                    <div class="footer_mian2">
+                       <ul>
+                            <li class="fix">
+                                <img src="images/footer1.png">
+                                <p>010-51659495 、010-52894860</p>
+                            </li>
+                            <li class="fix">
+                                <img src="images/footer2.png">
+                                <p>010-51659495 、010-52894860</p>
+                            </li>
+                             <li class="fix">
+                                <img src="images/footer3.png">
+                                <p>55555555@qq.com</p>
+                            </li>
+                            <li class="fix">
+                                <img src="images/footer4.png">
+                                <p>北京市海淀区上地十街1号院4号楼12层1208室</p>
+                            </li>
+                       </ul>
+                    </div>
+                    <div class="footer_mian3">
+                        <img src="images/ma.jpg">
+                        <p>微信公众号</p>
+                    </div>
+                </div>
+                <div class="footer_bom">
+                    <div class="w1200 fix">
+                        <p>Copyright 2010. All Rights Reserved. leienonline.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
