@@ -20,7 +20,7 @@ function PCMSAD(PID) {
 function statAD() {
 	var new_element = document.createElement("script"); 
 	new_element.type = "text/javascript";
-	new_element.src="http://luguang.hexiflower.com/index.php?m=poster&c=index&a=show&siteid="+this.SiteID+"&id="+this.ADID+"&spaceid="+this.PosID; 
+	new_element.src="http://hard.hexiflower.com/index.php?m=poster&c=index&a=show&siteid="+this.SiteID+"&id="+this.ADID+"&spaceid="+this.PosID; 
 	document.body.appendChild(new_element);
 }
 
@@ -46,11 +46,11 @@ function showADContent() {
  
 var cmsAD_11 = new PCMSAD('cmsAD_11'); 
 cmsAD_11.PosID = 11; 
-cmsAD_11.ADID = 15; 
+cmsAD_11.ADID = 13; 
 cmsAD_11.ADType = "images"; 
 cmsAD_11.ADName = "第三张"; 
-cmsAD_11.ADContent = "{'Images':[{'imgADLinkUrl':'http%3A%2F%2Fluguang.hexiflower.com%2Findex.php%3Fm%3Dcontent%26c%3Dindex%26a%3Dlists%26catid%3D44','imgADAlt':'','ImgPath':'http://luguang.hexiflower.com/uploadfile/2018/1031/20181031052152461.jpg'}],'imgADLinkTarget':'New','Count':'1','showAlt':'Y'}"; 
-cmsAD_11.URL = "http://luguang.hexiflower.com/index.php?m=poster&c=index"; 
+cmsAD_11.ADContent = "{'Images':[{'imgADLinkUrl':'%23','imgADAlt':'','ImgPath':'http://hard.hexiflower.com/uploadfile/2018/1109/20181109095258259.jpg'}],'imgADLinkTarget':'New','Count':'1','showAlt':'Y'}"; 
+cmsAD_11.URL = "http://hard.hexiflower.com/index.php?m=poster&c=index"; 
 cmsAD_11.SiteID = 1; 
 cmsAD_11.Width = 1920; 
 cmsAD_11.Height = 600; 

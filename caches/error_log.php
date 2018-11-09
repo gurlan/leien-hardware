@@ -217,3 +217,165 @@
 <?php exit;?>11-09 17:00:19 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
 <?php exit;?>11-09 17:00:19 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
 <?php exit;?>11-09 17:00:19 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 21:45:38 | 2 | Missing argument 2 for category::delete_child(), called in D:\phpstudy2018\PHPTutorial\WWW\leien\leien-hardware\phpcms\modules\admin\category.php on line 351 and defined | phpcms\modules\admin\category.php | 346
+<?php exit;?>11-09 21:46:54 | 2 | Missing argument 2 for category::delete_child(), called in D:\phpstudy2018\PHPTutorial\WWW\leien\leien-hardware\phpcms\modules\admin\category.php on line 351 and defined | phpcms\modules\admin\category.php | 346
+<?php exit;?>11-09 21:47:00 | 2 | Missing argument 2 for category::delete_child(), called in D:\phpstudy2018\PHPTutorial\WWW\leien\leien-hardware\phpcms\modules\admin\category.php on line 351 and defined | phpcms\modules\admin\category.php | 346
+<?php exit;?>11-09 21:47:27 | 2 | Missing argument 2 for category::delete_child(), called in D:\phpstudy2018\PHPTutorial\WWW\leien\leien-hardware\phpcms\modules\admin\category.php on line 351 and defined | phpcms\modules\admin\category.php | 346
+<?php exit;?>11-09 21:47:34 | 2 | Missing argument 2 for category::delete_child(), called in D:\phpstudy2018\PHPTutorial\WWW\leien\leien-hardware\phpcms\modules\admin\category.php on line 351 and defined | phpcms\modules\admin\category.php | 346
+<?php exit;?>11-09 22:12:24 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:12:24 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:12:24 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:12:24 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:12:24 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:12:24 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>11-09 22:12:24 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:12:24 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:12:24 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:12:24 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:12:24 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:12:24 | 2 | mysqli::query(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:12:24 | 2 | db_mysqli::execute(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:12:24 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:12:24 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:12:24 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:12:24 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:12:55 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:12:55 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:12:55 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:12:55 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:12:55 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:12:55 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>11-09 22:13:00 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:13:00 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:00 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:00 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:00 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:00 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>11-09 22:13:09 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:13:09 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:09 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:09 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:09 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:09 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>11-09 22:13:13 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:13:13 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:13 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:13 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:13 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:13 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>11-09 22:13:14 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:13:14 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:14 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:14 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:14 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:14 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>11-09 22:12:55 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:12:55 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:12:55 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:12:55 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:12:55 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:12:55 | 2 | mysqli::query(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:12:55 | 2 | db_mysqli::execute(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:12:55 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:12:55 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:12:55 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:12:55 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:00 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:13:00 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:00 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:00 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:00 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:00 | 2 | mysqli::query(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:13:00 | 2 | db_mysqli::execute(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:13:00 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:00 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:00 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:00 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:26 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:13:26 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:26 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:26 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:26 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:26 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>11-09 22:13:09 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:13:09 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:09 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:09 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:09 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:09 | 2 | mysqli::query(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:13:09 | 2 | db_mysqli::execute(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:13:09 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:09 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:09 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:09 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:13 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:13:13 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:13 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:13 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:13 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:13 | 2 | mysqli::query(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:13:13 | 2 | db_mysqli::execute(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:13:13 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:13 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:13 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:13 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:14 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:13:14 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:14 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:14 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:14 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:14 | 2 | mysqli::query(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:13:14 | 2 | db_mysqli::execute(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:13:14 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:14 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:14 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:14 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:26 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:13:26 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:26 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:26 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:26 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:26 | 2 | mysqli::query(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:13:26 | 2 | db_mysqli::execute(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:13:26 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:13:26 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:26 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:13:26 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:14:15 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:14:15 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:14:15 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:14:15 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:14:15 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:14:15 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>11-09 22:14:15 | 2 | mysqli::mysqli():              | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 22:14:15 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:14:15 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:14:15 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:14:15 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:14:15 | 2 | mysqli::query(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:14:15 | 2 | db_mysqli::execute(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 78
+<?php exit;?>11-09 22:14:15 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:14:15 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:14:15 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 22:14:15 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 22:28:21 | 2 | require(D:\phpstudy2018\PHPTutorial\WWW\leien\leien-hardware\phpcms\modules\content\fields\\config.inc.php): failed to open stream: No such file or directory | phpcms\modules\content\sitemodel_field.php | 207
+<?php exit;?>11-09 22:29:38 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-09 22:29:38 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-09 22:53:09 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-09 22:53:21 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-09 22:53:25 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-09 23:05:54 | 2 | mysqli::mysqli(): MySQL server has gone away | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 23:05:54 | 2 | mysqli::mysqli(): Error while reading greeting packet. PID=1472 | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 23:05:54 | 2 | mysqli::mysqli(): (HY000/2006): MySQL server has gone away | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>11-09 23:05:54 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 23:05:54 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 23:05:54 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>11-09 23:05:54 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>11-09 23:05:54 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>11-09 23:08:19 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-09 23:08:29 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-09 23:08:32 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-09 23:21:09 | 2 | Missing argument 2 for category::delete_child(), called in D:\phpstudy2018\PHPTutorial\WWW\leien\leien-hardware\phpcms\modules\admin\category.php on line 351 and defined | phpcms\modules\admin\category.php | 346
+<?php exit;?>11-09 23:29:05 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-10 00:07:33 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-10 00:07:43 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84

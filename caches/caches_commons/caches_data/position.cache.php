@@ -16,8 +16,8 @@ return array (
   array (
     'posid' => '19',
     'modelid' => '16',
-    'catid' => '0',
-    'name' => '新品推荐',
+    'catid' => '22',
+    'name' => '精品推荐',
     'maxnum' => '20',
     'extention' => '',
     'listorder' => '0',

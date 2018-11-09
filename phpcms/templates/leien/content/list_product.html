@@ -14,7 +14,7 @@
             <ul class="menue">
                 {pc:content action="category" catid="22" num="25" siteid="$siteid" order="listorder ASC"}
                 {loop $data $k=>$r}
-                <li class="nli"><a class="xiao">{$r[catname]}</a>
+                <li class="nli {if $CATEGORYS[$catid][parentid]==$k}on{/if}"><a class="xiao">{$r[catname]}</a>
                     <ul class="danav">
                         {pc:content action="category" catid="$r[catid]" num="25" siteid="$siteid" order="listorder ASC"}
                         {loop $data $l=>$v}
@@ -40,7 +40,7 @@
         </script>
         <div class="productBom_Right fix">
             <ul class="productul fix">
-                {pc:content action="lists" catid="$catid" num="10" order="listorder ASC,inputtime desc" page="$page"}
+                {pc:content action="lists" catid="$catid" num="9" order="listorder ASC,inputtime desc" page="$page"}
                 {loop $data $r}
                 <li>
                     <a href="{$r[url]}">

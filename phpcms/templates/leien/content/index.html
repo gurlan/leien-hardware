@@ -1,9 +1,9 @@
 {template "content","head"}
     <div class="index_product w1200">
         <div class="index_publicTop">
-            <h3>解决方案</h3>
+            <h3>产品分类</h3>
             <i></i>
-            <p>公司本着“以客户为中心”的经营理念， “诚信、平等”的待人原则，热情接待客户 、真情服务客户，实现客户利益和价值的最大化。</p>
+            <p>{$CATEGORYS[22][sub_title]}</p>
         </div>
         <div class="index_productBom fix">
             <div class="hd fix">
@@ -12,570 +12,41 @@
                     <i></i>
                 </em>
                 <ul class="fix">
-                    <li><span>研祥嵌入式产品</span></li>
-                    <li><span>研祥嵌入式产品</span></li>
-                    <li><span>研祥嵌入式产品</span></li>
-                    <li><span>研祥嵌入式产品</span></li>
-                    <li><span>研祥嵌入式产品</span></li>
-                    <li><span>其他分类</span></li>         
+                    {pc:content action="category" catid="22" num="10" siteid="$siteid" order="listorder ASC"}
+                    {loop $data $k=>$r}
+                    <li><span>{$r[catname]}</span></li>
+                    {/loop}
+                    {/pc}
+
                 </ul>
             </div>
             <div class="bd fix">
+                {pc:content action="category" catid="22" num="10" siteid="$siteid" order="listorder ASC"}
+                {loop $data $r}
                 <ul class="fix productul">
+                    {pc:content action="lists" catid="$r[catid]" num="9" siteid="$siteid" order="listorder ASC"}
+                    {loop $data $r}
                     <li>
-                        <a href="productxq.html">
+                        <a href="{$r[url]}">
                             <div class="productTu">
-                                <img src="images/cp.jpg">
+                                <img src="{$r[thumb]}">
                                 <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
+                                    <h3>{$r[title]}</h3>
                                     <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
+                                    <p>{$r[description]}</p>
                                 </em>
                             </div>
                             <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
+                                <p>{$r[title]}</p>
                             </div>
                         </a>
                     </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
+                    {/loop}
                 </ul>
-                <ul class="fix productul">
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="fix productul">
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="fix productul">
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="fix productul">
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="fix productul">
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="productxq.html">
-                            <div class="productTu">
-                                <img src="images/cp.jpg">
-                                <em>
-                                    <h3>9-11槽高兼容性壁挂机箱...</h3>
-                                    <i></i>
-                                    <p>旋转式箱盖设计，维护检修便捷主板压条，保证系统在运输与振动中稳定运行带滤网的高速风扇...</p>
-                                </em>
-                            </div>
-                            <div class="productWz">
-                                <p>9-11槽高兼容性壁...</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+                {/loop}
             </div>
         </div>
-        <a href="product.html" class="more">
+        <a href="{$CATEGORYS[22][url]}" class="more">
              MORE  +
         </a>
     </div>
@@ -585,27 +56,26 @@
     <div class="w1200">
         <div class="keynote">
             <div class="w1200">
-                <h3>执行体系，严格管理，改进提高，顾客满意</h3>
-                <p>依靠对产品质量的精益求精和对技术的不断创新，为用户提供全方位、全过程的称重解决方案。</p>
-                <span>全国服务热线：<b>010-881-29649</b></span>
+
+                {$config[ad]}
             </div>
         </div>
     </div>
     <div class="index_about w1200">
         <div class="index_publicTop">
-            <h3>解决方案</h3>
+            <h3>关于我们</h3>
             <i></i>
-            <p>公司本着“以客户为中心”的经营理念， “诚信、平等”的待人原则，热情接待客户 、真情服务客户，实现客户利益和价值的最大化。</p>
+            <p>{$CATEGORYS[126][sub_title]}</p>
         </div>
         <div class="index_aboutBom fix">
             <div class="index_aboutBomLe">
-                <img src="images/gongsi.jpg">
+                <img src="{$CATEGORYS[126][image]}">
             </div>
             <div class="index_aboutBomRt">
                 <h3>北京雷恩创业科技发展有限公司</h3>
                 <i></i>
-                <p>北京雷恩创业科技发展有限公司成立于2002年，是一家专业从事工业控制产品的开发、销售及自动化系统集成的公司。公司本着“以客户为中心”的经营理的念， “诚信、平等”的待人原则，热情接待客户 、真情服务客户，实现客户利益和价值的最大化。凭借广泛 的行业客户渠道及快速市场应变能力，公司业务在很短的时间里迅速发展起来，现主要服务于电力、水利、金融、航天、石化、交通、体育等行业用户...</p>
-                <a href=solution.html"" class="more">
+                <p>{php echo str_cut(strip_tags($CATEGORYS[126][description]),630)}</p>
+                <a href="{$CATEGORYS[126][url]}" class="more">
                     MORE  +
                 </a>
             </div>
@@ -617,28 +87,33 @@
                 <div class="index_publicTop">
                     <h3>新闻中心</h3>
                     <i></i>
-                    <p>公司本着“以客户为中心”的经营理念， “诚信、平等”的待人原则，热情接待客户 、真情服务客户，实现客户利益和价值的最大化。</p>
+                    <p>{$CATEGORYS[10][sub_title]}</p>
                 </div>
                 <div class="index_newsBom fix">
                     <div class="index_newsLeft">
-                        <a href="newsxq.html">
-                            <img src="images/news1.jpg">
-                            <p>世界首个高压电能计量标准装置研制成功 . . . </p>
+                        {pc:content action="lists" catid="10" num="1" order="listorder ASC,inputtime desc" thumb="1" page="$page"}
+                        {loop $data $r}
+                        <a href="{$r[url]}">
+                            <img src="{$r[thumb]}">
+                            <p>{$r[title]} </p>
                         </a>
+                        {/loop}
                     </div>
                     <div class="index_newsRight">
                         <ul>
+                            {pc:content action="lists" catid="10" num="5" order="listorder ASC,inputtime desc" page="$page"}
+                            {loop $data $r}
                             <li href="fix">
-                                <a href="newsxq.html">
-                                    <p>北京雷恩创业科技发展有限公司</p>
-                                    <i>2018-07-26</i>
+                                <a href="{$r[url]}">
+                                    <p>{$r[title]}</p>
+                                    <i>{date("Y-m-d",$r[inputtime])}</i>
                                 </a>
                             </li>
-
+                            {/loop}
                         </ul>
                     </div>
                 </div>
-                <a href="news.html" class="more">
+                <a href="{$CATEGORYS[10][url]}" class="more">
                     MORE  +
                 </a>
            </div> 

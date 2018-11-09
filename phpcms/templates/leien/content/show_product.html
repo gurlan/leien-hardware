@@ -30,7 +30,7 @@
                 jQuery(".game163 .smallScroll").slide({ mainCell:"ul",delayTime:100,vis:4,scroll:4,effect:"left",autoPage:  true,     prevCell:".sPrev",nextCell:".sNext",pnLoop:false });
             </script>
             <div class="productxq_TopLeft">
-                <b>{$title}</b>
+                <b>[ {$title} ]</b>
                 <em class="fix">
                     <span>产品名称</span>
                     <p>{$title}</p>
@@ -51,7 +51,9 @@
         </div>
         <div class="productxq_bom fix">
             <h3>产品介绍</h3>
-           {$content}
+          <p>{$introuce}</p>
+            <h3>详细参数</h3>
+           <p>{$content}</p>
         </div>
     </div>
 {template "content","foot"}

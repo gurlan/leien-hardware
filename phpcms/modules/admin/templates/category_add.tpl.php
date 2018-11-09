@@ -74,10 +74,16 @@ include $this->admin_tpl('header');?>
         <th><?php echo L('catgory_img')?>：</th>
         <td><?php echo form::images('info[image]', 'image', $image, 'content');?></td>
       </tr>
+    <tr>
+        <th>简介：</th>
+        <td>
+            <textarea name="info[sub_title]" maxlength="1000" style="width:300px;height:60px;"><?php echo $sub_title;?></textarea>
+        </td>
+    </tr>
 	<tr>
         <th><?php echo L('description')?>：</th>
         <td>
-		<textarea name="info[description]" maxlength="255" style="width:300px;height:60px;"><?php echo $description;?></textarea>
+		<textarea name="info[description]" maxlength="1000" style="width:300px;height:60px;"><?php echo $description;?></textarea>
 		</td>
       </tr>
 

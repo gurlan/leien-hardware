@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type="text/javascript" src="js/jquery1.42.min.js"></script><script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <meta name="keywords" content="{$SEO['keyword']}">
+    <meta name="description" content="{$SEO['description']}">
+
+    <script type="text/javascript" src="/statics/hard/js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="/statics/hard/js/jquery.SuperSlide.2.1.1.js"></script>
+    <link rel="stylesheet" href="/statics/hard/css/style.css">
+    <title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
 
     {php $tmp=explode(',',$CATEGORYS[$catid][arrparentid]);$num=count($tmp);}
-
     {if $num==1}
 
     {php $cat=$catid;}
@@ -21,6 +24,7 @@
     {/if}
     {pc:content action="lists" catid="26" num="1" moreinfo=1 order="listorder ASC,inputtime desc" return="config"}
     {php $config = $config[1]}
+
 <body>
 <div class="common"  id="anchor">
     <div class="head" class="fix">
@@ -32,7 +36,7 @@
     <div class="nav fix">
         <div class="w1200 fix">
             <div class="logo">
-                <img src="images/logo.png">
+                <img src="{$config[top_logo]}">
             </div>
             <ul class="navul fix">
                 <li class="nLi {if $catid==0} on {/if}">
@@ -41,7 +45,7 @@
                 {pc:content action="category" catid="0" num="25" siteid="$siteid" order="listorder ASC"}
 
                 {loop $data $v}
-                <li class="nLi {if $cat==$r[catid]} on {/if}">
+                <li class="nLi {if $cat==$v[catid]} on {/if}">
                     <h3><a href="{$v[url]}">{$v[catname]}</a></h3>
                     {pc:content action="category" catid="$v['catid']" num="25" siteid="$siteid" order="listorder ASC"}
                     <?php if($data){  ?>

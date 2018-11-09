@@ -7,7 +7,7 @@
         <i>来源：{$copyfrom}</i>
         <i>日期：{$inputtime}</i>
         <i id="hits"></i>
-        <i>标签：</i>
+        <i>标签：{$tags}</i>
     </em>
     <p>{$content}</p>
     <b>
@@ -18,5 +18,5 @@
 {template "content","foot"}
 <script language="JavaScript" src="{APP_PATH}api.php?op=count&id={$id}&modelid={$modelid}"></script>
 <script>
-    $('#hits').before('人气:')
+    $('#hits').prepend('人气：')
 </script>
