@@ -6,7 +6,7 @@
                     <span>友情链接：</span>
                     {pc:link action="type_list" siteid="$siteid" order="listorder DESC" num="10" return="dat"}
                     {loop $dat $v}
-                    <a href="{$v[url]}">{$v[name]}</a>
+                    <a href="{$v[url]}" target="_blank">{$v[name]}</a>
                     {/loop}
                 </div>
             </div>
